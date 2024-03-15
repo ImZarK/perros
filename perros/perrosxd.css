@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "SigmarOne";
+    src: url(../perros/fuentes/sigmar_one.woff);
+  }
+
+body{
+    background-color: aliceblue;
+    width: 80%;
+    max-width: 1080px;
+    font-family: sans-serif;
+    text-align: justify;
+    margin: 0px auto;
+}
+
+h1 {
+    margin: 0;
+    font-family: "SigmarOne";
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  h2{
+    font-family: "SigmarOne";
+    color: steelblue;
+    text-shadow: 1px 2px black;
+    font-size: 2rem;
+  }
+
+  hr{
+    clear: both;
+    width: 66%;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: steelblue;
+    margin: 40px auto;
+  }
+
+  img {
+    border: 4px solid steelblue;
+    padding: 5px;
+    
+  }
+
+img.izq {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+  }
+
+  img.der {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  p.izquierda{
+    width: 33%;
+    float: left;
+  }
+
+  p.centrado{
+    text-align: center;
+  }
+
+footer{
+    
+    transition: 0.3s color;
+    
+
+}
+
+footer:hover{
+    color: red;
+    cursor: pointer;
+}
+
+strong{
+    color: red;
+}
+
+time{
+    color: blue;
+}
+
+i{
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
